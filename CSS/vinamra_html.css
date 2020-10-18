@@ -5,6 +5,11 @@ body {
   width: 100%;
 }
 
+.noHover
+{
+    pointer-events: none;
+}
+
 .jumbotron
 {
     height: 600px;
@@ -34,7 +39,7 @@ img:hover{
 
 
 .navbar{
-    padding: 17px;
+    padding: 15px;
 }
 .navbar-brand{
     padding: 20px;
@@ -48,7 +53,8 @@ img:hover{
 
 
 .cover_image{
-    max-width: 16%;
+    pointer-events: none;
+    max-width: 16.4%;
     padding-right: 100px;
 }
 
