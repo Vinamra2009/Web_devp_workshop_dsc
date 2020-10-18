@@ -1,16 +1,37 @@
 .navbar{
     padding: 16px;
 }
+.navbar-brand{
+    padding: 20px;
+}
 
 .nav-item{
     padding: 10px;
 }
 
-.nav-item active{
-    padding: 20px;
-}
 
 .cover_image{
     max-width: 15%;
     padding-right: 100px;
 }
+
+.jumbotron
+{
+    height: 650px;
+    padding-left: 100px;
+}
+
+.lead{
+    font-size: 40px;
+}
+
+.display-4{
+    margin-top: 170px;
+    font-weight: 1000;
+    font-size: 80px;
+}
+.redText 
+{ 
+    color: red; 
+} 
+
