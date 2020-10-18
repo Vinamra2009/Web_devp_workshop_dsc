@@ -22,7 +22,7 @@ img:hover{
 
 
 .navbar{
-    padding: 15px;
+    padding: 17px;
 }
 .navbar-brand{
     padding: 20px;
@@ -36,7 +36,7 @@ img:hover{
 
 
 .cover_image{
-    padding-top: 50px;
+    max-width: 16%;
     padding-right: 100px;
 }
 
