@@ -1,5 +1,5 @@
 .navbar{
-    padding: 15px;
+    padding: 16px;
 }
 
 .nav-item{
@@ -11,6 +11,6 @@
 }
 
 .cover_image{
-    padding-top: 50px;
+    max-width: 15%;
     padding-right: 100px;
 }
