@@ -1,0 +1,16 @@
+.navbar{
+    padding: 15px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-item active{
+    padding: 20px;
+}
+
+.cover_image{
+    padding-top: 50px;
+    padding-right: 100px;
+}
