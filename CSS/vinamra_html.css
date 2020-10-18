@@ -1,8 +1,33 @@
+html,
+body {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.allskills{
+    margin:10px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+
 .navbar{
     padding: 15px;
 }
 .navbar-brand{
     padding: 20px;
+    font-size: 25px;
+
 }
 
 .nav-item{
@@ -17,12 +42,18 @@
 
 .jumbotron
 {
-    height: 650px;
+    height: 670px;
     padding-left: 100px;
 }
 
 .lead{
     font-size: 40px;
+}
+
+.skills{
+    font-size: 55px;
+    font-weight: 1000;
+    text-align: center;
 }
 
 .display-4{
@@ -33,5 +64,6 @@
 .redText 
 { 
     color: red; 
+    font-weight: 1000;
 } 
 
