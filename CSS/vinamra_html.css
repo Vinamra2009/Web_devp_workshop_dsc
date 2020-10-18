@@ -7,8 +7,9 @@ body {
 
 .jumbotron
 {
-    height: 670px;
+    height: 600px;
     padding-left: 100px;
+    background-color:white;
 }
 
 .lead{
