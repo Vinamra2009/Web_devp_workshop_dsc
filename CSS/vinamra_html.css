@@ -5,7 +5,18 @@ body {
   width: 100%;
 }
 
+.jumbotron
+{
+    height: 670px;
+    padding-left: 100px;
+}
+
+.lead{
+    font-size: 40px;
+}
+
 .container{
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,28 +51,26 @@ img:hover{
     padding-right: 100px;
 }
 
-.jumbotron
-{
-    height: 670px;
-    padding-left: 100px;
-}
-
-.lead{
-    font-size: 40px;
-}
-
-
 .about_me_cover{
     height: 760px;
     background-color: red;
 }
 
+.about_content{
+    padding-top: 150px;
+    color: white;
+}
+
+.assets_cover{
+    padding-top: 50px;
+    padding-left: 100px;
+}
 
 .skills{
     font-size: 55px;
     font-weight: 1000;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 .display-4{
@@ -69,6 +78,13 @@ img:hover{
     font-weight: 1000;
     font-size: 80px;
 }
+
+.text_skills{
+    margin-top: 80px;
+    font-weight: 1000;
+    font-size: 80px;
+}
+
 .redText 
 { 
     color: red; 
