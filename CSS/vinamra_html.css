@@ -55,6 +55,12 @@ body {
     padding: 10px;
 }
 
+.btn-outline-danger{
+    margin-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 
 .cover_image{
     pointer-events: none;
@@ -120,7 +126,7 @@ body {
 
 .contact_me_cover {
     height: 250px;
-    background-color: black;
+    background-color: #343a40;
     border-radius: 22px 22px 0px 0px;
 
 }
