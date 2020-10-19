@@ -14,7 +14,11 @@ body {
 
 .jumbotron
 {
+<<<<<<< HEAD
     height: 510px;
+=======
+    height: 500px;
+>>>>>>> c86685b9af1ce2db51cf1b14e7def1c8f7529adf
     padding-left: 100px;
     background-color:white;
 }
