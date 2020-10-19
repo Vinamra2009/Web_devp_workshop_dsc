@@ -114,6 +114,8 @@ img:hover{
 
 .contact__container
 {
+    padding-top: 3%;
+    padding-left: 35%;
     justify-items: center;
 }
 
@@ -131,9 +133,9 @@ img:hover{
 .contact__button
 {
     display: block;
-    border: none;
-    outline: none;
-    font-size: 0.938rem;
+    border:none;
+    outline:none;
+    font-size: 1.2rem;
     cursor: pointer;
     margin-left: auto;
 }
