@@ -58,11 +58,11 @@ html {
     padding: 10px;
 }
 
-.btn-outline-danger{
+.btn-danger{
     margin-right: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    color: white;
+    color:white;
 }
 
 
@@ -150,7 +150,7 @@ html {
    text-align: center;
    margin: 10px;
    line-height: 80px;
-   transition: all 0.3s linear;
+   transition: all 0.9s linear;
    transform: scale(1.0) ;
 
 }
