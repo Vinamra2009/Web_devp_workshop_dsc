@@ -8,11 +8,13 @@ body {
 .noHover
 {
     pointer-events: none;
+    width: 600px;
+    margin-top: 80px;
 }
 
 .jumbotron
 {
-    height: 600px;
+    height: 510px;
     padding-left: 100px;
     background-color:white;
 }
@@ -39,7 +41,7 @@ img:hover{
 
 
 .navbar{
-    padding: 15px;
+    padding: 2px;
 }
 .navbar-brand{
     padding: 20px;
@@ -69,8 +71,8 @@ img:hover{
 }
 
 .assets_cover{
-    padding-top: 50px;
     padding-left: 100px;
+    width: 380px;
 }
 
 .skills{
