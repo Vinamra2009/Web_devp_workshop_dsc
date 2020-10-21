@@ -214,6 +214,7 @@ canvas
     padding: 1rem;
     border-radius: .5rem;
     border: 1.5px solid red;
+    box-shadow: 5px 10px 18px red;
     outline: none;
     margin-bottom: 2rem;
 }
@@ -223,6 +224,7 @@ canvas
     border:none;
     outline:none;
     font-size: 1.3rem;
+    box-shadow: 5px 10px 18px black;
     cursor: pointer;
     margin-left: auto;
 }
