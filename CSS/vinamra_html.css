@@ -9,7 +9,8 @@ html {
   }
 
 
-  canvas {
+canvas 
+{
     position:absolute;
     top:0;
     left:0;
@@ -192,38 +193,4 @@ html {
     font-weight: 800;
     font-size: 60px;
 }
-
-.contact__form
-{
-    width: 360px;
-}
-
-.contact__container
-{
-    padding-top: 3%;
-    padding-left: 35%;
-    justify-items: center;
-}
-
-.contact__input
-{
-    width: 100%;
-    font-size: 0.938rem;
-    font-weight: 600;
-    padding: 1rem;
-    border-radius: .5rem;
-    border: 1.5px solid red;
-    outline: none;
-    margin-bottom: 2rem;
-}
-.contact__button
-{
-    display: block;
-    border:none;
-    outline:none;
-    font-size: 1.3rem;
-    cursor: pointer;
-    margin-left: auto;
-}
-
 
