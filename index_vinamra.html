@@ -36,8 +36,8 @@
       // createCanvas(500, 500);
       var canvas=createCanvas(window.innerWidth,window.innerHeight);
       canvas.parent('sketch-div');
-      //pixelDensity(1); // Set 1 because it's too slow on firefox
-      pixelDensity(displayDensity());
+      pixelDensity(1); // Set 1 because it's too slow on firefox
+      //pixelDensity(displayDensity());
       n = 200;
 
       for (var i = 0; i <= n; i++) {
@@ -267,6 +267,18 @@
     </a>
   </div>
   <!--Project section ends here -->
+  
+  <!--form section starts here-->
+  <h1 class="contact_skills" style="color: black;text-align: center;padding-top: 0px;">Contact</h1>
+    <div class="contact__container bd-grid">
+        <form action="" class="contact__form" data-netlify="true">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="mail" placeholder="Email" class="contact__input">
+            <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Message"></textarea>
+            <input type="button" value="Submit" class="contact__button button">
+        </form>
+    </div>
+  <!--form section ends here-->
 
   <!-- Contact section-->
   <p id="contact"></p>
