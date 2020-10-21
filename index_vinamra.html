@@ -38,7 +38,8 @@
       canvas.parent('sketch-div');
       pixelDensity(1); // Set 1 because it's too slow on firefox
       //pixelDensity(displayDensity());
-      n = 200;
+      n = 150;
+      frameRate(20);
 
       for (var i = 0; i <= n; i++) {
           constellation.push(new star());
@@ -269,6 +270,7 @@
   <!--Project section ends here -->
   
   <!--form section starts here-->
+  <p id="contact"></p>
   <h1 class="contact_skills" style="color: black;text-align: center;padding-top: 0px;">Contact</h1>
     <div class="contact__container bd-grid">
         <form action="" class="contact__form" data-netlify="true">
@@ -281,7 +283,6 @@
   <!--form section ends here-->
 
   <!-- Contact section-->
-  <p id="contact"></p>
   <div class="contact_me_cover">
     <h1 class="display-4" style="color: white;text-align: center;padding-top: 30px;">Contact Me!</h1>
     <div class="centerdiv">
