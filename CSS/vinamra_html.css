@@ -132,13 +132,34 @@ canvas
 .carousel-control-prev{
     margin: auto;
     padding-top: 50px;
-    width: 800px;
+    width: 300px;
 }
 
 .carousel-control-next{
     margin: auto;
     padding-top: 50px;
-    width: 800px;
+    width: 300px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
 }
 
 .contact_me_cover {
@@ -197,7 +218,7 @@ canvas
 
 .contact__form
 {
-    width: 500px;
+    width: 680px;
 }
 
 .contact__container
